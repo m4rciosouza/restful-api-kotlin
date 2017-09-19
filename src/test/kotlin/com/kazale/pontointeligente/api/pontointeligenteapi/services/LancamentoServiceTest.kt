@@ -20,10 +20,6 @@ import org.springframework.test.context.ActiveProfiles
 import org.springframework.test.context.junit4.SpringRunner
 import java.util.*
 
-
-/**
- * Created by marciosouza on 9/16/17.
- */
 @RunWith(SpringRunner::class)
 @SpringBootTest
 @ActiveProfiles("test")

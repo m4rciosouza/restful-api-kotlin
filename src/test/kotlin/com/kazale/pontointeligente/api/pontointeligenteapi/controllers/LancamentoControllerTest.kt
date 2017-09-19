@@ -29,10 +29,6 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers.status
 import java.text.SimpleDateFormat
 import java.util.*
 
-
-/**
- * Created by marciosouza on 9/16/17.
- */
 @RunWith(SpringRunner::class)
 @SpringBootTest
 @AutoConfigureMockMvc

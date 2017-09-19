@@ -4,11 +4,6 @@ import org.junit.Assert
 import org.junit.Test
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder
 
-
-
-/**
- * Created by marciosouza on 9/16/17.
- */
 class SenhaUtilsTest {
 
     private val SENHA = "123456"

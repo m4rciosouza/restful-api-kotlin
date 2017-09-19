@@ -6,7 +6,7 @@ import com.kazale.pontointeligente.api.pontointeligenteapi.services.EmpresaServi
 import org.springframework.stereotype.Service
 
 @Service
-class EmpresaServiceImpl (val empresaRepository: EmpresaRepository): EmpresaService {
+class EmpresaServiceImpl (val empresaRepository: EmpresaRepository) : EmpresaService {
 
     override fun buscarPorCnpj(cnpj: String) = empresaRepository.findByCnpj(cnpj)
 

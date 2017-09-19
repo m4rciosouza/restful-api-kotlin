@@ -7,7 +7,7 @@ import org.springframework.data.domain.PageRequest
 import org.springframework.stereotype.Service
 
 @Service
-class LancamentoServiceImpl (val lancamentoRepository: LancamentoRepository): LancamentoService {
+class LancamentoServiceImpl (val lancamentoRepository: LancamentoRepository) : LancamentoService {
 
     override fun buscarPorFuncionarioId(funcionarioId: String, pageRequest: PageRequest) =
             lancamentoRepository.findByFuncionarioId(funcionarioId, pageRequest)

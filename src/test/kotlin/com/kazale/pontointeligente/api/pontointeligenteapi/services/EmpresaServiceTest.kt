@@ -14,10 +14,6 @@ import org.springframework.boot.test.mock.mockito.MockBean
 import org.springframework.test.context.ActiveProfiles
 import org.springframework.test.context.junit4.SpringRunner
 
-
-/**
- * Created by marciosouza on 9/16/17.
- */
 @RunWith(SpringRunner::class)
 @SpringBootTest
 @ActiveProfiles("test")
